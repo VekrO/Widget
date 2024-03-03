@@ -1,18 +1,8 @@
 
 .container {
-    width: 300px;
-    height: 300px;
-    display: block;
-    opacity: 1;
+    width: 100%;
     border-radius: 18px;
-    border: 0px solid rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-    transition: opacity 0.2s ease-out 0s;
-    /* user-select: none; */
     font-family: Arial, sans-serif;
-    margin-top: 25px;
-    margin-left: 25px;
-    position: relative;
 }
 
 .container .button-close {
@@ -41,14 +31,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
     flex-direction: column;
-    padding: 0 15px;
+    height: 100%;
     gap: 10px;
 }
 
 .container .container-options .container-option {
-    padding: 0 15px;
     border-radius: 15px;
     background-color: #f0f4f6;
     cursor: pointer;
